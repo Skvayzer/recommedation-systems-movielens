@@ -34,10 +34,12 @@ In this assignment you will use [MovieLens 100K dataset](https://grouplens.org/d
 
 Mean RMSE and Mean MAE are calculated in `benchmark/evaluate.py`
 The scores I got using 5 folds cross-validation: 
-                  Fold 1  Fold 2  Fold 3  Fold 4  Fold 5  Mean    Std     
-RMSE (testset)    0.9781  0.9676  0.9711  0.9816  0.9719  0.9741  0.0051  
-MAE (testset)     0.7728  0.7638  0.7666  0.7742  0.7700  0.7695  0.0038  
-Fit time          0.48    0.52    0.43    0.40    0.42    0.45    0.05    
-Test time         3.51    3.17    2.37    2.40    2.35    2.76    0.49    
+|                | Fold 1 | Fold 2 | Fold 3 | Fold 4 | Fold 5 | Mean    | Std     |
+|----------------|--------|--------|--------|--------|--------|---------|---------|
+| RMSE (testset) | 0.9781 | 0.9676 | 0.9711 | 0.9816 | 0.9719 | 0.9741  | 0.0051  |
+| MAE (testset)  | 0.7728 | 0.7638 | 0.7666 | 0.7742 | 0.7700 | 0.7695  | 0.0038  |
+| Fit time       | 0.48   | 0.52   | 0.43   | 0.40   | 0.42   | 0.45    | 0.05    |
+| Test time      | 3.51   | 3.17   | 2.37   | 2.40   | 2.35   | 2.76    | 0.49    |
 Mean RMSE: 0.9740637658805241
 Mean MAE: 0.7694671102576232
+

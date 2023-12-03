@@ -9,7 +9,6 @@ data = Dataset.load_builtin('ml-100k')
 
 # Define a reader to parse the data
 reader = Reader(line_format='user item rating timestamp', sep='\t', rating_scale=(1, 5))
-print(os.getcwd())
 # Load the data
 data = Dataset.load_from_file('data/interim/ml-100k/u.data', reader)
 # cross_validate_algo = pickle.load(open('../models/knnpickle_file', 'rb'))
